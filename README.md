@@ -49,5 +49,5 @@ gcc client.c crc32.c error_simulator.c -o client.exe -lws2_32
 
 ## Notes
 - Assurez-vous que le serveur est démarré avant le client
-- Le programme utilise le protocole TCP/IP pour la communication
+- Le programme utilise le protocole UDP/IP pour la communication
 - Les erreurs de transmission sont automatiquement détectées et gérées 
